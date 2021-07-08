@@ -3,11 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto+Condensed|Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="">
+    </header>
+    <main>
+      <div class="flex">
+      <div class= "center letter space">Pagar</div>
+      <div class= "center letter space">Método de pago</div>
+      <div class= "letter space"><p>Número de la tarjeta*</p>
+      <input type="text" id="input" class="center input"></div>
+      <input type="button" value="Validar" id="capture" class="boton center">
+      </div>
+      <div id="result" class="center letter morespace"></div>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
